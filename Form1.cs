@@ -17,18 +17,13 @@ namespace GreenvilleAds
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-//ignore this
-        }
-
-        private void rulesButton_Click(object sender, EventArgs e)
+        private void RulesButton_Click(object sender, EventArgs e)
         {
             FormRules formRules = new FormRules();
             formRules.ShowDialog();
         }
 
-        private void rulesReadCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void RulesReadCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             if (rulesReadCheckBox.Checked) {
                 ReadRulesForm readRulesForm = new ReadRulesForm();
